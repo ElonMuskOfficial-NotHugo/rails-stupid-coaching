@@ -1,0 +1,17 @@
+
+<div class="container mt-5">
+    <div class="text-center mb-2">
+      <h1 class="mb-4">Stupid Coaching</h1>
+      <div class="rounded-lg">
+        <div class="border p-2 rounded-lg">
+          <h3>Question:</h3>
+            <p><%= @question %></p>
+        </div>
+        <div class="bg-secondary text-white p-2 rounded-lg">
+            <h3 class="mb-0">Answer:</h3>
+            <p><%= @response %></p>
+        </div>
+      </div>
+    </div>
+  <%= link_to "Ask another question", ask_path %>
+</div>
